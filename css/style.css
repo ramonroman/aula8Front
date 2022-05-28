@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #131313;
+    font-family: 'Roboto' , sans-serif;
+}
+
+h1 {
+    font-family: 'roboto', sans-serif ;
+    color:white
+}
+
+.media-picture{
+    background-image: url(../img/american_psycho-1200x675.jpg);
+    height: 400px;
+    background-size: cover;
+ 
+}
+
+.media-picture img{
+  background-size: cover;
+    width: 300px;
+}
+
+
+.review-score {
+    position: absolute;
+    color: white;
+    background-color: #e6bd09;
+    padding: 12px;
+    width: 120px;
+    top: 455px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(233, 199, 8, 0.5);
+    
+}
+
+h2 {
+    color: steelblue;
+    margin-top: 40px;
+}
+
+p{
+    color: #bdbdbd;
+    font-family: 'robot', sans-serif;
+}
+
+a{
+    color: yellow;
+    text-decoration: none;
+    font-weight: 600;
+}
